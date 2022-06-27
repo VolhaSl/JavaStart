@@ -44,7 +44,7 @@ public class Task_1_lesson_3 {
 
             //2 ВАРИАНТ
 
-//  // место элемента массива 0        1     2         3
+  // место элемента массива 0        1     2         3
 //        String[] worlds = {"We", "peace", "for", "peace"};
 //        //length             1      2        3       4
 
@@ -58,7 +58,7 @@ public class Task_1_lesson_3 {
                             worlds[g] = null;
                         }
                     }
-                    System.out.printf("Word -> %s, count -> %s", worlds[i], count);
+                    System.out.printf("Word: -> %s, count -> %s", worlds[i], count);
                     System.out.println();
                 }
             }
