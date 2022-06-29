@@ -11,32 +11,32 @@ public class Task2_les2 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the month with a capital letter");
+        System.out.println("Enter the month with a capital letter:");
         String month = scanner.next();
 
         switch (month) {
             case "January":
             case "February":
             case "December":
-                System.out.println("Winter");
+                System.out.println("Winter ");
                 break;
             case "March":
             case "April":
             case "May":
-                System.out.println("Spring");
+                System.out.println("Spring ");
                 break;
             case "June":
             case "July":
             case "August":
-                System.out.println("Summer");
+                System.out.println("Summer ");
                 break;
             case "September":
             case "October":
             case "November":
-                System.out.println("Autumn");
+                System.out.println("Autumn ");
                 break;
             default:
-                System.out.println("There is no such month.");
+                System.out.println("There is no such month. ");
         }
 
         // Вариант2: не получилось
